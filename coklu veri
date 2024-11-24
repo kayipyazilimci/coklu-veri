@@ -1,0 +1,26 @@
+çoklu veri yapıları
+Python yazılım dilinde tek bir değişken içerisinde birden  fazla veri depolanır.
+1-) liste kavramı 
+Bir değişkende birden fazla bir depolayabiliriz liste ile lise oluşturmak için köşeli parantezler kullanılır ve her bir veri virgüllere ayrılır.
+İstenilen veri türünde( integer ,str vb )veriler depolayabiliriz listeye isim vermek için değişken oluşturan kuralı kullanılır.
+sayilar=[1,2,3,4,5] 
+print("sayilar listesinin elemanları:",sayilar)
+"""listeler birleştirme özelliğine sahiptir."""
+a=[1,2,30]
+b=[9,8,7]
+c=a+b[1,5,9]
+print("c listesi:{}".format(c))
+"""listelere veri eklenebilir .hangi veri üzerinden işlem yapılacaksa,kendi türünden verilerle işlem yapar"""
+sayiler+=[1,2,3]
+print(sayilar)
+"""Listedeki herhangi bir veriye ulaşmak için indeks kavramı kullanılır. İndeks çoklu verideki  elemanların konumu temsil eder. 
+Her daim konum sıfırdan başlar ve toplam eleman sayısının bir eksiğine kadar devam eder. Bir çoklu verinin sözlü verinin  indeksine ulaşmak için Coklu_veri[İndeksNumara]
+#  0 1 2
+p=[1,2,3]
+print(p[1])
+toplam =p[0]+p[1]+p[2]
+print(toplam)
+"""listenin elemanları değiştirilebilmektir"""
+isimler=["yilmaz","emine","azra","fatmanur","yigit"]
+isimler[3]="mahmood"
+print(isimler)
